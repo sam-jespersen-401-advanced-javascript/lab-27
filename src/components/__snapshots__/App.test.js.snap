@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app component renders an app 1`] = `
+<Fragment>
+  <Header />
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "flexWrap": "wrap",
+      }
+    }
+  >
+    <Character
+      img="https://res.cloudinary.com/dzxqhkyqd/image/fetch/c_scale,w_500/https://res.cloudinary.com/dzxqhkyqd/image/upload/v1552429540/bender.png"
+      key="Bender"
+      name="Bender"
+      quote="Bite my shiny metal ass."
+      species="Robot"
+    />
+    <Character
+      img="https://res.cloudinary.com/dzxqhkyqd/image/upload/v1554904145/leela.png"
+      key="Leela"
+      name="Leela"
+      quote="...at least here you'll be treated with dignity. Now strip naked and get on
+the probulator."
+      species="Mutant"
+    />
+    <Character
+      img="https://res.cloudinary.com/dzxqhkyqd/image/upload/v1554904133/fry.png"
+      key="Fry"
+      name="Fry"
+      quote="...it's what seperates humans and robots from animals and animal robots."
+      species="Human"
+    />
+    <Character
+      img="https://res.cloudinary.com/dzxqhkyqd/image/upload/v1554904047/calculon.jpg"
+      key="Calculon"
+      name="Calculon"
+      quote="Me too. I'm filled with a large number of powerful emotions."
+      species="Robot"
+    />
+    <Character
+      img="https://res.cloudinary.com/dzxqhkyqd/image/upload/v1554904014/farnsworth.png"
+      key="Professor Farnsworth"
+      name="Professor Farnsworth"
+      quote="...each pound of which weighs over 10,000 pounds."
+      species="Human"
+    />
+    <Character
+      img="https://res.cloudinary.com/dzxqhkyqd/image/upload/v1554904049/Zapp_Brannigan.png"
+      key="Zapp Brannigan"
+      name="Zapp Brannigan"
+      quote="In the game of chess you can never let your adversary see your pieces."
+      species="Human"
+    />
+    <Character
+      img="https://res.cloudinary.com/dzxqhkyqd/image/upload/v1554904014/Dr_John_Zoidberg.png"
+      key="Dr Zoidberg"
+      name="Dr Zoidberg"
+      quote="Scalpel... blood bucket... priest. Next patient!"
+      species="Alien"
+    />
+    <Character
+      img="https://res.cloudinary.com/dzxqhkyqd/image/upload/v1554904013/amy.png"
+      key="Amy"
+      name="Amy"
+      quote="If I ever feel lonely, I'll just look over at this disfiguring scar and think
+of you."
+      species="Human"
+    />
+    <Character
+      img="https://res.cloudinary.com/dzxqhkyqd/image/upload/v1554904013/Hermes.png"
+      key="Hermes"
+      name="Hermes"
+      quote="Kudos, Bender! You got mangled and became a singer. Both our dreams came true."
+      species="Human"
+    />
+    <Character
+      img="https://res.cloudinary.com/dzxqhkyqd/image/upload/v1554904014/Kif.png"
+      key="Kif"
+      name="Kif"
+      quote="It's not uncharted, you lost the chart!"
+      species="Alien"
+    />
+  </div>
+  <Footer />
+</Fragment>
+`;
