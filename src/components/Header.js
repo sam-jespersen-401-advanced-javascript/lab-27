@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import styles from './Header.css';
 
 export default class Header extends Component {
   render() {
-    return <header>
-      <h1>Best Characters</h1>
+    return <header className={styles.Header}>
+      <p>Best Characters</p>
     </header>;
   }
 }
