@@ -1,7 +1,16 @@
 import React, { Component } from 'react';
 import styles from './Character.css';
+import PropTypes from 'prop-types';
 
 export default class Character extends Component {
+
+  static propTypes = {
+    img: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    species: PropTypes.string.isRequired,
+    quote: PropTypes.string.isRequired
+  }
+
   render() {
     const { img, name, species, quote } = this.props;
 
@@ -14,7 +23,7 @@ export default class Character extends Component {
           Species: {species}
         </div>
         <div className={styles.quote}>
-          "{quote}"
+          {quote}
         </div>
       </div>
     </>;
